@@ -192,12 +192,12 @@ section a::after {
 }
 
 #section-two a{
-  animation:move-to-left 3s cubic-bezier(1, 0.02, 0.1, 1) 4 alternate-reverse;
+  animation:move-to-left 3s cubic-bezier(1, 0.02, 0.1, 1) 2 alternate-reverse;
 }
 @keyframes move-to-left {
   0%{
     opacity: 1;
-    margin-left:50vw;
+    margin-left:47vw;
   }
   100%{
     opacity:0;
