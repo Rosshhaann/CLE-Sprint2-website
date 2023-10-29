@@ -24,7 +24,7 @@ section p {
   letter-spacing: 2px;
 }
 section{
-  margin:10vh 0;
+  margin:6vh 0;
 }
 
 /* Nav  */
@@ -37,7 +37,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: white;
   padding: 2vh 3vw;
 }
 
@@ -118,6 +117,8 @@ header {
 
 header h1 {
   font-size: 6rem;
+  color: #fdd5fc;
+  text-shadow: #e23be7 5.2px 6.2px 0px;
 }
 
 #header-p {
@@ -176,8 +177,8 @@ section a::after {
 }
 
 #section-one a:hover::before{
-  border-top: 4px solid #4000ff;
-  border-left: 4px solid #4000ff;
+  border-top: 4px solid #01b6ee;
+  border-left: 4px solid #01b6ee;
   width: 98%;
   height: 90%;
   transition: width 0.6s ease-in, height 0.6s ease-in;
@@ -186,14 +187,13 @@ section a::after {
   width: 98%;
   height: 90%;
   transition: width 0.6s ease-in, height 0.6s ease-in;
-  border-bottom: 4px solid #4000ff;
-  border-right: 4px solid #4000ff;
+  border-bottom: 4px solid #01b6ee;
+  border-right: 4px solid #01b6ee;
 }
 
 #section-two a{
   animation:move-to-left 3s cubic-bezier(1, 0.02, 0.1, 1) 4 alternate-reverse;
 }
-
 @keyframes move-to-left {
   0%{
     opacity: 1;
@@ -201,7 +201,6 @@ section a::after {
   }
   100%{
     opacity:0;
-    margin-right:50vw;
   }
 }
 #section-two a:hover::before{
@@ -225,14 +224,14 @@ section a::after {
   display: flex;
   align-items: center;
   border-top: 6px dashed #01b6ee;
-  border-bottom:6px dashed #01b6ee;
   color: white;
+  margin-top:0;
 }
 
 
 #section-one .image {
   width: 400px;
-  padding: 4vh;
+  padding: 5vh;
   border-radius: 100px;
 }
 
@@ -254,16 +253,11 @@ section a::after {
 }
 
 
-
-
-
-
 /* Section Two */
 
 #section-two {
   display: flex;
   border-top: 6px dashed #ffbd59;
-  /* border-bottom:6px dashed #ffbd59; */
   color: white;
   margin-bottom:0;
 }
@@ -286,7 +280,6 @@ section a::after {
 
 .product-two {
   display: flex;
-  text-align: right;
   align-items: center;
   padding: 5vh 0;
   padding-left: 18vw;
