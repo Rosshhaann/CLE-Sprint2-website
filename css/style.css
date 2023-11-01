@@ -292,8 +292,8 @@ section a::after {
 .product-two-pumpkin {
   width: 125px;
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left:100px;
+  top:425px;
   animation: bigger-size 4s ease-in-out infinite alternate-reverse;
 }
 
